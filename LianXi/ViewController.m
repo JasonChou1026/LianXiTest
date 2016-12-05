@@ -31,7 +31,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor blueColor];
     dic = [NSMutableDictionary dictionary];
     _allArray = [NSMutableArray new];
     _allArray = [@[@[@"12",@"32",@"12",@"12",@"12",@"32"],@[@"12",@"12",@"12",@"32",@"12",@"12",@"12",@"32",@"12",@"12",@"12",@"32"],@[@"12",@"12",@"32"]]mutableCopy];
