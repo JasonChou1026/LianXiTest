@@ -16,6 +16,13 @@
 		960DBBB71DDABC9600968763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960DBBB51DDABC9600968763 /* LaunchScreen.storyboard */; };
 		960DBBC21DDABC9600968763 /* LianXiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 960DBBC11DDABC9600968763 /* LianXiTests.m */; };
 		960DBBCD1DDABC9600968763 /* LianXiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 960DBBCC1DDABC9600968763 /* LianXiUITests.m */; };
+		960DBBDC1DDABF2400968763 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960DBBDB1DDABF2400968763 /* UIKit.framework */; };
+		960DBBDF1DDCD80100968763 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 960DBBDE1DDCD80100968763 /* ContainerViewController.m */; };
+		960DBBE21DDCD89C00968763 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 960DBBE11DDCD89C00968763 /* MenuViewController.m */; };
+		960DBBE51DDCDB6000968763 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 960DBBE41DDCDB6000968763 /* FirstViewController.m */; };
+		960DBBE81DDCDB6700968763 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 960DBBE71DDCDB6700968763 /* SecondViewController.m */; };
+		960DBBEB1DDE0F2F00968763 /* MainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 960DBBEA1DDE0F2F00968763 /* MainNavController.m */; };
+		960DBBEE1DDE11F800968763 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 960DBBED1DDE11F800968763 /* MainTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,19 @@
 		960DBBC81DDABC9600968763 /* LianXiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LianXiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		960DBBCC1DDABC9600968763 /* LianXiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LianXiUITests.m; sourceTree = "<group>"; };
 		960DBBCE1DDABC9600968763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960DBBDB1DDABF2400968763 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		960DBBDD1DDCD80100968763 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		960DBBDE1DDCD80100968763 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		960DBBE01DDCD89C00968763 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		960DBBE11DDCD89C00968763 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		960DBBE31DDCDB6000968763 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		960DBBE41DDCDB6000968763 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		960DBBE61DDCDB6700968763 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		960DBBE71DDCDB6700968763 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		960DBBE91DDE0F2F00968763 /* MainNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavController.h; sourceTree = "<group>"; };
+		960DBBEA1DDE0F2F00968763 /* MainNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavController.m; sourceTree = "<group>"; };
+		960DBBEC1DDE11F800968763 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		960DBBED1DDE11F800968763 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				960DBBDC1DDABF2400968763 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +108,7 @@
 				960DBBC01DDABC9600968763 /* LianXiTests */,
 				960DBBCB1DDABC9600968763 /* LianXiUITests */,
 				960DBBA21DDABC9600968763 /* Products */,
+				960DBBDA1DDABF2400968763 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +129,18 @@
 				960DBBA81DDABC9600968763 /* AppDelegate.m */,
 				960DBBAA1DDABC9600968763 /* ViewController.h */,
 				960DBBAB1DDABC9600968763 /* ViewController.m */,
+				960DBBDD1DDCD80100968763 /* ContainerViewController.h */,
+				960DBBDE1DDCD80100968763 /* ContainerViewController.m */,
+				960DBBE01DDCD89C00968763 /* MenuViewController.h */,
+				960DBBE11DDCD89C00968763 /* MenuViewController.m */,
+				960DBBE31DDCDB6000968763 /* FirstViewController.h */,
+				960DBBE41DDCDB6000968763 /* FirstViewController.m */,
+				960DBBE61DDCDB6700968763 /* SecondViewController.h */,
+				960DBBE71DDCDB6700968763 /* SecondViewController.m */,
+				960DBBE91DDE0F2F00968763 /* MainNavController.h */,
+				960DBBEA1DDE0F2F00968763 /* MainNavController.m */,
+				960DBBEC1DDE11F800968763 /* MainTabBarController.h */,
+				960DBBED1DDE11F800968763 /* MainTabBarController.m */,
 				960DBBAD1DDABC9600968763 /* Main.storyboard */,
 				960DBBB31DDABC9600968763 /* Assets.xcassets */,
 				960DBBB51DDABC9600968763 /* LaunchScreen.storyboard */,
@@ -141,6 +175,14 @@
 				960DBBCE1DDABC9600968763 /* Info.plist */,
 			);
 			path = LianXiUITests;
+			sourceTree = "<group>";
+		};
+		960DBBDA1DDABF2400968763 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				960DBBDB1DDABF2400968763 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,9 +322,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				960DBBB21DDABC9600968763 /* LianXi.xcdatamodeld in Sources */,
+				960DBBE21DDCD89C00968763 /* MenuViewController.m in Sources */,
+				960DBBE51DDCDB6000968763 /* FirstViewController.m in Sources */,
 				960DBBAC1DDABC9600968763 /* ViewController.m in Sources */,
+				960DBBEB1DDE0F2F00968763 /* MainNavController.m in Sources */,
+				960DBBE81DDCDB6700968763 /* SecondViewController.m in Sources */,
+				960DBBEE1DDE11F800968763 /* MainTabBarController.m in Sources */,
 				960DBBA91DDABC9600968763 /* AppDelegate.m in Sources */,
 				960DBBA61DDABC9600968763 /* main.m in Sources */,
+				960DBBDF1DDCD80100968763 /* ContainerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +481,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7TH8TWFH9Z;
 				INFOPLIST_FILE = LianXi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.edoctor.ipad.distribution20title.LianXi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,6 +494,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7TH8TWFH9Z;
 				INFOPLIST_FILE = LianXi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.edoctor.ipad.distribution20title.LianXi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,6 +570,7 @@
 				960DBBD31DDABC9600968763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		960DBBD41DDABC9600968763 /* Build configuration list for PBXNativeTarget "LianXiTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +579,7 @@
 				960DBBD61DDABC9600968763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		960DBBD71DDABC9600968763 /* Build configuration list for PBXNativeTarget "LianXiUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +588,7 @@
 				960DBBD91DDABC9600968763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
